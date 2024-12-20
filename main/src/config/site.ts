@@ -5,8 +5,8 @@ import { SiteConfig } from "@/types"
 import { env } from "@/env.mjs"
 
 export const siteConfig: SiteConfig = {
-  name: "Next Entree",
-  author: "redpangilinan",
+  name: "Bottomline IT",
+  author: "bottomlineit",
   description:
     "Next.js 14+ starter template with app router, shadcn/ui, typesafe env, icons and configs setup.",
   keywords: ["Next.js", "React", "Tailwind CSS", "Radix UI", "shadcn/ui"],
@@ -117,7 +117,7 @@ export const jsonLd = {
     "Discover expert hair styling, dreadlocks, wig treatments, and nail care services tailored for all at Rivonia Hair Salon & Nail Care.",
   url: env.NEXT_PUBLIC_APP_URL, // Replace with the real website URL
   image: "https://rivoniahairsalon.com/assets/og-image.png", // Replace with the real OG image URL
-  telephone: env.NEXT_PUBLIC_PHONE_NUMBER, // Replace with the salon's contact number
+  telephone: env.PHONE_NUMBER, // Replace with the salon's contact number
   address: {
     "@type": "PostalAddress",
     streetAddress: "Rivonia Central Shopping Centre, Rivonia Blvd",
