@@ -43,7 +43,7 @@ export default async function Home() {
           </Link> */}
 
           <SignUpButton>
-            <Button className="w-full">Login in</Button>
+            <Button className="w-full" forceRedirectUrl="http://bottomlineit.co.za/" >Login in</Button>
           </SignUpButton>
         </CardFooter>
       </Card>
