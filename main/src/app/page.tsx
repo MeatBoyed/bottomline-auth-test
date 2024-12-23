@@ -45,7 +45,7 @@ export default async function Home() {
           <SignUpButton fallbackRedirectUrl="http://bottomlineit.co.za/" 
 forceRedirectUrl="http://bottomlineit.co.za/"
 >
-            <Button className="w-full"  >Login in</Button>
+            <Button className="w-full"  >Login</Button>
           </SignUpButton>
         </CardFooter>
       </Card>
