@@ -42,7 +42,9 @@ export default async function Home() {
             Log in
           </Link> */}
 
-          <SignUpButton fallbackRedirectUrl="http://bottomlineit.co.za/" >
+          <SignUpButton fallbackRedirectUrl="http://bottomlineit.co.za/" 
+forceRedirectUrl="http://bottomlineit.co.za/"
+>
             <Button className="w-full"  >Login in</Button>
           </SignUpButton>
         </CardFooter>
